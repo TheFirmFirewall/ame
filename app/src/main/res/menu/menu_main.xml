@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newFile"
+        app:showAsAction="collapseActionView"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add_file"
+        >
+    </item>
+    <item
+        android:id="@+id/small"
+        app:showAsAction="collapseActionView"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/default_dataset"
+        >
+    </item>
+    <item
+        android:id="@+id/large"
+        app:showAsAction="collapseActionView"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/large_dataset"
+        >
+    </item>
+</menu>
